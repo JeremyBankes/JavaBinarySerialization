@@ -1,2 +1,2 @@
 # Serialization
-Java serialization API
+A Java serialization API
