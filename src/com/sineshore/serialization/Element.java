@@ -1,6 +1,6 @@
-package com.sineshore.serialization.v2_1;
+package com.sineshore.serialization;
 
-import static com.sineshore.serialization.v2_1.ByteUtilities.*;
+import static com.sineshore.serialization.ByteUtilities.*;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;

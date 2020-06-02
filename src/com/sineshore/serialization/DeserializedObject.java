@@ -1,4 +1,4 @@
-package com.sineshore.serialization.v2_1;
+package com.sineshore.serialization;
 
 import java.lang.reflect.Field;
 import java.util.Collection;
