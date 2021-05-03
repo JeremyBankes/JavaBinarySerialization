@@ -97,7 +97,8 @@ public class Batch {
 		}
 		Object value = elements.get(name).getValue();
 		if (!type.isAssignableFrom(value.getClass())) {
-			throw new IllegalStateException("Unexpected type. Expected '" + type.getSimpleName() + "', got '" + value.getClass() + "'.");
+			throw new IllegalStateException(
+					"Unexpected type. Expected '" + type.getSimpleName() + "', got '" + value.getClass() + "'.");
 		}
 		return type.cast(value);
 	}

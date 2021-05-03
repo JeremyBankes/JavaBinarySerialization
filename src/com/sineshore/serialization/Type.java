@@ -2,18 +2,8 @@ package com.sineshore.serialization;
 
 public enum Type {
 
-	/* 00 */ BYTE,
-	/* 01 */ BOOLEAN,
-	/* 02 */ SHORT,
-	/* 03 */ CHAR,
-	/* 04 */ INT,
-	/* 05 */ LONG,
-	/* 06 */ FLOAT,
-	/* 07 */ DOUBLE,
-	/* 08 */ STRING,
-	/* 09 */ ARRAY,
-	/* 10 */ OBJECT,
-	/* 11 */ TERMINATION;
+	/* 00 */ BYTE, /* 01 */ BOOLEAN, /* 02 */ SHORT, /* 03 */ CHAR, /* 04 */ INT, /* 05 */ LONG, /* 06 */ FLOAT,
+	/* 07 */ DOUBLE, /* 08 */ STRING, /* 09 */ ARRAY, /* 10 */ OBJECT, /* 11 */ TERMINATION;
 
 	public final byte id;
 

@@ -8,4 +8,5 @@ import java.lang.annotation.Target;
 
 @Target(value = { FIELD })
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Serialize {}
+public @interface Serialize {
+}

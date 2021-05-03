@@ -35,7 +35,8 @@ public class ByteUtilities {
 
 	public static final byte[] joinBytes(byte[]... sources) {
 		int pointer = 0;
-		for (byte[] source : sources) pointer += source.length;
+		for (byte[] source : sources)
+			pointer += source.length;
 		byte[] result = new byte[pointer];
 		pointer = 0;
 		for (int i = 0; i < sources.length; i++) {
@@ -49,7 +50,8 @@ public class ByteUtilities {
 
 	public static final byte[] grabBytes(byte[] source, int pointer, int length) {
 		byte[] result = new byte[length];
-		for (int i = 0; i < length; i++) result[i] = source[pointer + i];
+		for (int i = 0; i < length; i++)
+			result[i] = source[pointer + i];
 		return result;
 	}
 
